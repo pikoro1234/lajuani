@@ -22,4 +22,4 @@ node_modules/
 *.sql
 *.sqlite
 
-/recursos/images
+#/recursos/images
