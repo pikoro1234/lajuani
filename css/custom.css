@@ -32,8 +32,9 @@
     min-width: 100%;
     margin: 0px !important;    
 }
-
-
+.cursor-pointer{
+    cursor: pointer;
+}
 
 @import url(//db.onlinewebfonts.com/c/35480b5356193cadbe34f8be49900124?family=Simplon+Mono+Medium);
 @font-face {
