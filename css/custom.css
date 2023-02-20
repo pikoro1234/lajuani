@@ -1,48 +1,8 @@
-.fp-scroller{
-    overflow:hidden;
-}
-.section {
-    text-align:center;
-    font-size: 3em;
-    font-family: arial;
-}
-.bg-regular{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 100%!important;
-    width: 100%!important;
-}
-.img-regular{
-    /* height: 100%!important;
-    width: 100%!important; */
-    object-fit: cover;
-}
-.bg-overlay {
+/* estilos navbar */
+
+
+/* modal home */
+.content-footer-modal-copy{
     position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: 1;
-    opacity: .5;
-}
-.modal-complet{
-    max-width: 100%;
-    min-width: 100%;
-    margin: 0px !important;    
-}
-.cursor-pointer{
-    cursor: pointer;
-}
-
-@import url(//db.onlinewebfonts.com/c/35480b5356193cadbe34f8be49900124?family=Simplon+Mono+Medium);
-@font-face {
-    font-family: "Simplon Mono Medium"; 
-    src: url("//db.onlinewebfonts.com/t/35480b5356193cadbe34f8be49900124.eot"); 
-    src: url("//db.onlinewebfonts.com/t/35480b5356193cadbe34f8be49900124.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/35480b5356193cadbe34f8be49900124.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/35480b5356193cadbe34f8be49900124.woff") format("woff"), url("//db.onlinewebfonts.com/t/35480b5356193cadbe34f8be49900124.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/35480b5356193cadbe34f8be49900124.svg#Simplon Mono Medium") format("svg");
-}
-
-body{
-    font-family: "Simplon Mono Medium";
+    bottom: 2%;
 }

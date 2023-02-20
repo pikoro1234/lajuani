@@ -1,0 +1,50 @@
+/* estilos genericos */
+.fp-scroller{
+    overflow:hidden;
+}
+.section {
+    text-align:center;
+    font-size: 3em;
+    font-family: arial;
+}
+.bg-regular{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%!important;
+    width: 100%!important;
+}
+.img-regular{        
+    object-fit: cover;
+}
+.bg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    opacity: .5;
+}
+.modal-complet{
+    max-width: 100%;
+    min-width: 100%;
+    margin: 0px !important;    
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+html body .container-generic{
+    padding-left: 15px!important;
+    padding-right: 15px!important;
+}
+.btn-close-opacity{
+    opacity: 0.5;
+}
+.close-hover-visible{
+    opacity: 0;
+    transition: .5s;
+}
+.close-hover-visible:hover{
+    opacity: 0.4;
+}

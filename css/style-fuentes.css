@@ -1,0 +1,33 @@
+/* fuentes */
+@import url(//db.onlinewebfonts.com/c/35480b5356193cadbe34f8be49900124?family=Simplon+Mono+Medium);
+
+@font-face {
+    font-family: "Simplon Mono Medium"; 
+    src: url("//db.onlinewebfonts.com/t/35480b5356193cadbe34f8be49900124.eot"); 
+    src: url("//db.onlinewebfonts.com/t/35480b5356193cadbe34f8be49900124.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/35480b5356193cadbe34f8be49900124.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/35480b5356193cadbe34f8be49900124.woff") format("woff"), url("//db.onlinewebfonts.com/t/35480b5356193cadbe34f8be49900124.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/35480b5356193cadbe34f8be49900124.svg#Simplon Mono Medium") format("svg"); }
+
+body,
+h1,
+h2,
+p,
+em,
+strong,
+a,
+p>a,
+button,
+button>span,
+span,
+[type="button"]:not(:disabled), 
+[type="reset"]:not(:disabled), 
+[type="submit"]:not(:disabled), 
+button:not(:disabled){
+    font-family: "Simplon Mono Medium"!important;
+}
+.ff-simplon{
+    font-family: "Simplon Mono Medium"!important;   
+}
+
+/* colores */
+.color-black{
+    color: #000;
+}
