@@ -6,3 +6,9 @@
     position: absolute;
     bottom: 2%;
 }
+
+/* proyectos */
+html body .fp-controlArrow.fp-next,
+html body .fp-controlArrow.fp-prev {        
+    border-color: transparent transparent transparent transparent!important;
+}  

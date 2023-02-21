@@ -48,3 +48,6 @@ html body .container-generic{
 .close-hover-visible:hover{
     opacity: 0.4;
 }
+.btn-cambio .texto-change.active{
+    opacity: 1;
+}

@@ -1,0 +1,12 @@
+:root{
+    --white :#fff;
+    --black :#000;
+}
+
+/* colores */
+.color-black{
+    color: var(--black);
+}
+.change-color-text{
+    color: var(--white);
+}

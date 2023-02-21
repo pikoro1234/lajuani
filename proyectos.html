@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/custom.css">
     <link rel="stylesheet" href="./css/style-general.css">
     <link rel="stylesheet" href="./css/style-fuentes.css">
+    <link rel="stylesheet" href="./css/style-vars.css">
     <link rel="stylesheet" href="./css/fullpage.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <title>la juani</title>
@@ -15,109 +16,112 @@
 
 <body class="fondo-change" style="position: relative;">
     <!-- sidebar floating filtros -->
-    <div class="content-floting-filters-projects container-generic" style="display: flex;flex-direction: column;align-items: start;justify-content: center;position: absolute;top: 1%; z-index: 1;">
+    <div class="content-floting-filters-projects container-generic h-100" style="display: flex;flex-direction: column;align-items: start;justify-content: space-between;position: absolute;top: 1%; z-index: 1;">
         <div class="top-close d-flex align-items-center justify-content-start py-1 border-0">
-            <span type="button" class="m-0 btn-close-opacity" data-bs-dismiss="modal" aria-label="Close">(<span
-                class="close-hover-visible btn-close-opacity">X</span>) CLOSE</span>            
+            <span type="button" class="m-0 texto-change" data-bs-dismiss="modal" aria-label="Close">(<span class="close-hover-visible texto-change">X</span>) <span class="btn-close-opacity texto-change">CLOSE</span></span>            
         </div>
-        <div class="top-floting-filters-parents">
-            <ul class="list-unstyled">
-                <li>
-                    <div class="d-flex align-items-center justify-content-center">
-                        <span type="button" class="m-0 me-3">(<span class="close-hover-visible">X</span>)</span>
-                        <span class="btn-close-opacity">Photo</span>
-                    </div>
-                </li>
-                <li>
-                    <div class="d-flex align-items-center justify-content-center">
-                        <span type="button" class="m-0 me-3">(<span class="close-hover-visible">X</span>)</span>
-                        <span class="btn-close-opacity">Video</span>
-                    </div>
-                </li>
-                <li>
-                    <div class="d-flex align-items-center justify-content-center">
-                        <span type="button" class="m-0 me-3">(<span class="close-hover-visible">X</span>)</span>
-                        <span class="btn-close-opacity">Design</span>
-                    </div>
-                </li>
-            </ul>
+        <div class="content-top-center-filters">
+            <div class="top-floting-filters-parents pb-5">
+                <ul class="list-unstyled d-flex align-items-start flex-column justify-content-center">
+                    <li>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <span type="button" class="m-0 me-3 texto-change">(<span class="close-hover-visible texto-change">X</span>)</span>
+                            <span class="btn-close-opacity texto-change">Photo</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <span type="button" class="m-0 me-3 texto-change">(<span class="close-hover-visible texto-change">X</span>)</span>
+                            <span class="btn-close-opacity texto-change">Video</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <span type="button" class="m-0 me-3 texto-change">(<span class="close-hover-visible texto-change">X</span>)</span>
+                            <span class="btn-close-opacity texto-change">Design</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="center-floting-filters-childrens">
+                <ul class="list-unstyled d-flex align-items-start flex-column justify-content-center">
+                    <li>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <span type="button" class="m-0 me-3 texto-change">(<span class="close-hover-visible texto-change">X</span>)</span>
+                            <span class="btn-close-opacity texto-change">Architecture & Interiors</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <span type="button" class="m-0 me-3 texto-change">(<span class="close-hover-visible texto-change">X</span>)</span>
+                            <span class="btn-close-opacity texto-change">Fashion</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <span type="button" class="m-0 me-3 texto-change">(<span class="close-hover-visible texto-change">X</span>)</span>
+                            <span class="btn-close-opacity texto-change">Product</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <span type="button" class="m-0 me-3 texto-change">(<span class="close-hover-visible texto-change">X</span>)</span>
+                            <span class="btn-close-opacity texto-change">Author</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <span type="button" class="m-0 me-3 texto-change">(<span class="close-hover-visible texto-change">X</span>)</span>
+                            <span class="btn-close-opacity texto-change">Music videos</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <span type="button" class="m-0 me-3 texto-change">(<span class="close-hover-visible texto-change">X</span>)</span>
+                            <span class="btn-close-opacity texto-change">Commercials</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <span type="button" class="m-0 me-3 texto-change">(<span class="close-hover-visible texto-change">X</span>)</span>
+                            <span class="btn-close-opacity texto-change">Identity</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <span type="button" class="m-0 me-3 texto-change">(<span class="close-hover-visible texto-change">X</span>)</span>
+                            <span class="btn-close-opacity texto-change">Editorial</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <span type="button" class="m-0 me-3 texto-change">(<span class="close-hover-visible">X</span>)</span>
+                            <span class="btn-close-opacity texto-change">Website</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <span type="button" class="m-0 me-3 texto-change">(<span class="close-hover-visible texto-change">X</span>)</span>
+                            <span class="btn-close-opacity texto-change">Digital</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="center-floting-filters-childrens">
-            <ul class="list-unstyled">
-                <li>
-                    <div class="d-flex align-items-center justify-content-center">
-                        <span type="button" class="m-0 me-3">(<span class="close-hover-visible">X</span>)</span>
-                        <span class="btn-close-opacity">Architecture & Interiors</span>
-                    </div>
-                </li>
-                <li>
-                    <div class="d-flex align-items-center justify-content-center">
-                        <span type="button" class="m-0 me-3">(<span class="close-hover-visible">X</span>)</span>
-                        <span class="btn-close-opacity">Fashion</span>
-                    </div>
-                </li>
-                <li>
-                    <div class="d-flex align-items-center justify-content-center">
-                        <span type="button" class="m-0 me-3">(<span class="close-hover-visible">X</span>)</span>
-                        <span class="btn-close-opacity">Product</span>
-                    </div>
-                </li>
-                <li>
-                    <div class="d-flex align-items-center justify-content-center">
-                        <span type="button" class="m-0 me-3">(<span class="close-hover-visible">X</span>)</span>
-                        <span class="btn-close-opacity">Author</span>
-                    </div>
-                </li>
-                <li>
-                    <div class="d-flex align-items-center justify-content-center">
-                        <span type="button" class="m-0 me-3">(<span class="close-hover-visible">X</span>)</span>
-                        <span class="btn-close-opacity">Music videos</span>
-                    </div>
-                </li>
-                <li>
-                    <div class="d-flex align-items-center justify-content-center">
-                        <span type="button" class="m-0 me-3">(<span class="close-hover-visible">X</span>)</span>
-                        <span class="btn-close-opacity">Commercials</span>
-                    </div>
-                </li>
-                <li>
-                    <div class="d-flex align-items-center justify-content-center">
-                        <span type="button" class="m-0 me-3">(<span class="close-hover-visible">X</span>)</span>
-                        <span class="btn-close-opacity">Identity</span>
-                    </div>
-                </li>
-                <li>
-                    <div class="d-flex align-items-center justify-content-center">
-                        <span type="button" class="m-0 me-3">(<span class="close-hover-visible">X</span>)</span>
-                        <span class="btn-close-opacity">Editorial</span>
-                    </div>
-                </li>
-                <li>
-                    <div class="d-flex align-items-center justify-content-center">
-                        <span type="button" class="m-0 me-3">(<span class="close-hover-visible">X</span>)</span>
-                        <span class="btn-close-opacity">Website</span>
-                    </div>
-                </li>
-                <li>
-                    <div class="d-flex align-items-center justify-content-center">
-                        <span type="button" class="m-0 me-3">(<span class="close-hover-visible">X</span>)</span>
-                        <span class="btn-close-opacity">Digital</span>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="bottom-floating-switch-color-change">
+        <div class="empty-between"></div>
+        <div class="empty-between"></div>
+        <div class="bottom-floating-switch-color-change pb-3">
             <ul class="list-unstyled">
                 <li>
                     <div attr-color="blanco" class="btn-cambio cursor-pointer d-flex align-items-center justify-content-center">
-                        <span type="button" class="m-0 me-3">(<span class="close-hover-visible">X</span>)</span>
-                        <span class="btn-close-opacity">WHITE</span>
+                        <span type="button" class="m-0 me-3 texto-change">(<span class="close-hover-visible texto-change">X</span>)</span>
+                        <span class="btn-close-opacity texto-change">WHITE</span>
                     </div>
                 </li>
                 <li>
                     <div attr-color="negro" class="btn-cambio cursor-pointer d-flex align-items-center justify-content-center">
-                        <span type="button" class="m-0 me-3">(<span class="close-hover-visible">X</span>)</span>
-                        <span class="btn-close-opacity">BLACK</span>
+                        <span type="button" class="m-0 me-3 texto-change">(<span class="close-hover-visible texto-change">X</span>)</span>
+                        <span class="btn-close-opacity texto-change">BLACK</span>
                     </div>
                 </li>
             </ul>

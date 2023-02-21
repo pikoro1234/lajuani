@@ -26,8 +26,3 @@ button:not(:disabled){
 .ff-simplon{
     font-family: "Simplon Mono Medium"!important;   
 }
-
-/* colores */
-.color-black{
-    color: #000;
-}
