@@ -1,3 +1,15 @@
+const is_mobile = () =>{
+
+    let ventana_ancho = $(window).width();
+
+    let ventana_alto = $(window).height();
+
+    if (ventana_ancho <= 820) {
+
+        return true               
+    }
+}
+
 $(document).ready(function () {
 
     //escondemos el logo central despues de unos segundo
@@ -19,12 +31,17 @@ $(document).ready(function () {
             $('.texto-change').removeClass('change-color-text')
         }
     })
-    
+        
     // scroll fullpage
     $('#fullpage').fullpage({        
         navigation: false,
         navigationPosition: 'bottom',
         scrollOverflow: true,                
         css3:true       
-    });        
+    }); 
+    
+    // agregamos scroll y a pagina proyectos
+    if(is_mobile()){
+        $('.content-general').addClass('over-flow-y-mobile')    
+    }
 });

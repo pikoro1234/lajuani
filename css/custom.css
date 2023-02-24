@@ -53,6 +53,9 @@
     html body .fp-controlArrow.fp-prev {        
         border-color: transparent transparent transparent transparent!important;
     }  
+    .content-general.position-relative.over-flow-y-mobile{
+        overflow-y: auto!important;
+    }
 }
 
 @media (min-width: 992px) { 
