@@ -1,4 +1,9 @@
 /* estilos genericos */
+@media (max-width: 991px) { 
+    .h-100.h-100-mobile-auto{
+        height: auto!important;
+    }
+}
 .fp-scroller{
     overflow:hidden;
 }

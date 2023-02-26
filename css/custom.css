@@ -56,6 +56,11 @@
     .content-general.position-relative.over-flow-y-mobile{
         overflow-y: auto!important;
     }
+
+    html body.proyecto .top-close,
+    html body.single-proyecto .top-close{
+        margin-bottom: 40px;
+    }
 }
 
 @media (min-width: 992px) { 

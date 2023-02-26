@@ -42,6 +42,9 @@ $(document).ready(function () {
     
     // agregamos scroll y a pagina proyectos
     if(is_mobile()){
-        $('.content-general').addClass('over-flow-y-mobile')    
+        $('.content-general').addClass('over-flow-y-mobile')       
+        //$('#fullpage').find('.section.seccion-slider-desktop').remove()
+        $('.pagina-proyectos').remove()
+        $('.pagina-single-proyecto').remove()
     }
 });

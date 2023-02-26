@@ -14,10 +14,10 @@
     <title>la juani</title>
 </head>
 
-<body class="content-general position-relative fondo-change">
+<body class="proyecto content-general position-relative fondo-change">
 
     <!-- sidebar floating filtros -->
-    <div class="content-floting-filters-projects container-generic h-100 d-flex flex-column align-items-start justify-content-between">
+    <div class="content-floting-filters-projects container-generic h-100 h-100-mobile-auto d-flex flex-column align-items-start justify-content-lg-between">
         <div class="top-close d-flex align-items-center justify-content-start py-1 border-0">
             <span type="button" class="m-0 texto-change" data-bs-dismiss="modal" aria-label="Close">(<span class="close-hover-visible texto-change">X</span>) <span class="btn-close-opacity texto-change">CLOSE</span></span>            
         </div>
@@ -44,7 +44,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="center-floting-filters-childrens">
+            <div class="center-floting-filters-childrens d-none d-lg-block">
                 <ul class="list-unstyled d-flex align-items-start flex-column justify-content-center">
                     <li>
                         <div class="d-flex align-items-center justify-content-center">
@@ -130,30 +130,53 @@
     </div>
 
     <!-- content-principal -->
-    <div id="fullpage">
-        <div class="section">
-            <div class="slide" data-anchor="slide1">
+    <div id="fullpage" class="pagina-proyectos">
+        <div class="section seccion-slider-desktop">
+            <div class="slide image-silder" data-anchor="slide1">
                 <img src="./recursos/images/slider-proy-1.png" alt="img 1">
             </div>
-            <div class="slide" data-anchor="slide2">
+            <div class="slide image-silder" data-anchor="slide2">
                 <img src="./recursos/images/slider-proy-2.png" alt="img 2">
             </div>
-            <div class="slide" data-anchor="slide3">
+            <div class="slide image-silder" data-anchor="slide3">
                 <img src="./recursos/images/slider-proy-3.png" alt="img 3">
             </div>
-            <div class="slide" data-anchor="slide4">
+            <div class="slide image-silder" data-anchor="slide4">
                 <img src="./recursos/images/slider-proy-4.png" alt="img 4">
             </div>
-            <div class="slide" data-anchor="slide5">
+            <div class="slide image-silder" data-anchor="slide5">
                 <img src="./recursos/images/slider-proy-5.png" alt="img 5">
             </div>
         </div>
     </div>
+
+    <!-- content solo mobile po cambio de estructura -->
+    <div class="content-mobile-galeria-una-fila d-block d-lg-none">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center align-items-center pt-5">
+                <img src="./recursos/images/slider-proy-1.png" alt="img 1">
+            </div>
+            <div class="col-12 d-flex justify-content-center align-items-center pt-5">
+                <img src="./recursos/images/slider-proy-2.png" alt="img 2">
+            </div>
+            <div class="col-12 d-flex justify-content-center align-items-center pt-5">
+                <img src="./recursos/images/slider-proy-3.png" alt="img 3">
+            </div>
+            <div class="col-12 d-flex justify-content-center align-items-center pt-5">
+                <img src="./recursos/images/slider-proy-4.png" alt="img 4">
+            </div>
+            <div class="col-12 d-flex justify-content-center align-items-center pt-5">
+                <img src="./recursos/images/slider-proy-5.png" alt="img 5">
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/scrollOver.js"></script>
+    <script src="./js/fullPage.js"></script>
+    <script src="./js/custom.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
 </body>
-<script src="./js/jquery.js"></script>
-<script src="./js/scrollOver.js"></script>
-<script src="./js/fullPage.js"></script>
-<script src="./js/custom.js"></script>
-<script src="./js/bootstrap.min.js"></script>
 
 </html>
